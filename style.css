@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, sans-serif;
+}
+
+a {
+  text-decoration: none;
+    color: yellow;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+@media (max-width: 200px) {
+  caption {
+    font-size: 10px;
+  }
+}
+
+/* Navbar */
+
+#navbar {
+background-color: rgb(50, 50, 50);
+display: flex;
+width: 100%;
+margin: 0;
+padding: em;
+position: fixed;
+}
+
+#page-links {
+  width: 90%;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+#page-links li {
+  height: 100%;
+  padding: 10px;
+}
+
+#page-links li:hover {
+  background-color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: rgb(200, 120, 0)
+}
+
+/* line */
+#after-navbar {
+  border: 1px solid black;
+  margin: 0;
+}
+
+/* Biography */
+
+#welcome-section {
+  background: linear-gradient(rgb(50, 50, 50), rgb(90, 50, 50));
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+#links {
+  background-color: rgb(50, 50, 50);
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a{
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+#between-footer {
+  margin: 0;
+  border: 5px solid yellow;
+}
+
+/*projects*/
+
+#projects {
+  padding: 30px 10px;
+  background: linear-gradient(rgb(90, 50, 50), rgb(50, 50, 50));
+  color: white;
+  font-size: 1.2em;
+}
+
+#responsive {
+  width: 100%;
+}
+
+.project-tile {
+  border: 2px solid yellow;
+  width: 30%;
+  height: auto;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(90, 50, 50);
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
